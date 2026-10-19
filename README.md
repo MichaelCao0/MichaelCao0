@@ -6,9 +6,6 @@
   <a href="https://github.com/MichaelCao0?tab=followers">
     <img src="https://img.shields.io/github/followers/MichaelCao0?label=Followers&style=flat&color=2F81F7" alt="GitHub followers" />
   </a>
-  <a href="https://github.com/MichaelCao0?tab=repositories">
-    <img src="https://img.shields.io/badge/Projects-View-2F81F7?style=flat" alt="View projects" />
-  </a>
   <a href="https://scholar.google.com/citations?user=p-Rt0KUAAAAJ&amp;hl=zh-CN">
     <img src="https://img.shields.io/badge/Google%20Scholar-Profile-4285F4?style=flat&logo=googlescholar&logoColor=white" alt="Google Scholar profile" />
   </a>
@@ -18,11 +15,7 @@
 
 ## About Me
 
-Hi, I'm **MichaelCaoo**, a researcher and software developer affiliated with **Nanjing University**.
-
-- I work on AI systems, multimodal learning, reinforcement learning, and intelligent agents.
-- I am interested in building reliable and scalable machine learning systems.
-- I enjoy solving practical problems and turning ideas into maintainable software.
+Hi, I'm **MichaelCaoo** from **Nanjing University**.
 - My publications are available on [Google Scholar](https://scholar.google.com/citations?user=p-Rt0KUAAAAJ&hl=zh-CN).
 - More of my work is available on [GitHub](https://github.com/MichaelCao0).
 
