@@ -12,18 +12,19 @@
 </p>
 
 </div>
+### 🐍 Contribution Snake
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/snake-dark.svg" />
+  <img alt="A snake eating my GitHub contribution calendar" src="./profile/snake.svg" width="100%" />
+</picture>
+
+<p align="center"><sub>Refreshed daily with GitHub Actions · Built with <a href="https://github.com/Platane/snk">snk</a> and <a href="https://github.com/stats-organization/github-readme-stats-action">GitHub Readme Stats Action</a></sub></p>
 ## About Me
 
 Hi, I'm **MichaelCaoo** from **Nanjing University**.
 - My publications are available on [Google Scholar](https://scholar.google.com/citations?user=p-Rt0KUAAAAJ&hl=zh-CN).
 - More of my work is available on [GitHub](https://github.com/MichaelCao0).
-
-## Tech Stack
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,typescript,javascript,java,cpp,react,nodejs,docker,git,github,linux&perline=11" alt="Technology icons" />
-</p>
 
 ### 📊 GitHub Stats
 
@@ -33,21 +34,6 @@ Hi, I'm **MichaelCaoo** from **Nanjing University**.
     <img alt="Michael's GitHub statistics and contribution rank" src="./profile/stats.svg" width="720" />
   </picture>
 </p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/languages-dark.svg" />
-    <img alt="Most used programming languages" src="./profile/languages.svg" width="360" />
-  </picture>
-</p>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=MichaelCao0&hide_border=true&theme=github-dark-blue" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=MichaelCao0&hide_border=true&theme=default" />
-    <img alt="GitHub contribution streak" src="https://streak-stats.demolab.com/?user=MichaelCao0&hide_border=true&theme=default" />
-  </picture>
-</div>
 
 ### 📚 Research
 
@@ -108,14 +94,7 @@ My latest public pull requests and issues, ordered by last update.
   </picture>
 </div>
 
-### 🐍 Contribution Snake
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/snake-dark.svg" />
-  <img alt="A snake eating my GitHub contribution calendar" src="./profile/snake.svg" width="100%" />
-</picture>
-
-<p align="center"><sub>Refreshed daily with GitHub Actions · Built with <a href="https://github.com/Platane/snk">snk</a> and <a href="https://github.com/stats-organization/github-readme-stats-action">GitHub Readme Stats Action</a></sub></p>
 
 ---
 
