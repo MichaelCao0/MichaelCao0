@@ -119,19 +119,3 @@ My latest public pull requests and issues, ordered by last update.
 <!-- ACTIVITY:END -->
 
 [All pull requests](https://github.com/pulls?q=is%3Apr+author%3AMichaelCao0+sort%3Aupdated-desc) · [All issues](https://github.com/issues?q=is%3Aissue+author%3AMichaelCao0+sort%3Aupdated-desc)
-
-## Contribution Activity
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=MichaelCao0&bg_color=00000000&color=2F81F7&line=2F81F7&point=FFFFFF&area=true&hide_border=true&theme=github-compact" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=MichaelCao0&bg_color=00000000&color=24292F&line=2F81F7&point=24292F&area=true&hide_border=true&theme=github-compact" />
-    <img alt="GitHub activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=MichaelCao0&bg_color=00000000&color=24292F&line=2F81F7&point=24292F&area=true&hide_border=true&theme=github-compact" />
-  </picture>
-</div>
-
-
-
----
-
-Always happy to discuss multimodal learning, agent research, and open-source ML infrastructure.
