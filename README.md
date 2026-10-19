@@ -12,7 +12,6 @@
 </p>
 
 </div>
-### 🐍 Contribution Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile/snake-dark.svg" />
@@ -20,7 +19,6 @@
 </picture>
 
 <p align="center"><sub>Refreshed daily with GitHub Actions · Built with <a href="https://github.com/Platane/snk">snk</a> and <a href="https://github.com/stats-organization/github-readme-stats-action">GitHub Readme Stats Action</a></sub></p>
-## About Me
 
 Hi, I'm **MichaelCaoo** from **Nanjing University**.
 - My publications are available on [Google Scholar](https://scholar.google.com/citations?user=p-Rt0KUAAAAJ&hl=zh-CN).
