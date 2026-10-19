@@ -1,0 +1,55 @@
+{
+  "source": "Google Scholar",
+  "scholar_user": "p-Rt0KUAAAAJ",
+  "updated_utc": "2026-10-19",
+  "citations": 203,
+  "h_index": 6,
+  "i10_index": 6,
+  "papers": {
+    "2osOgNQ5qMEC": {
+      "title": "Omnivideobench: Towards audio-visual understanding evaluation for omni mllms, 2025a",
+      "citations": 64,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14608674073757441090,17812424618293257815,2738140945755848585"
+    },
+    "u5HHmVD_uO8C": {
+      "title": "Safedialbench: A fine-grained safety benchmark for large language models in multi-turn dialogues with diverse jailbreak attacks",
+      "citations": 47,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=956542987779571029,11174377281617190894"
+    },
+    "Y0pCki6q_DkC": {
+      "title": "The latent space: Foundation, evolution, mechanism, ability, and outlook",
+      "citations": 41,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5981428289540025412,756074371881393365,11551412551554389963"
+    },
+    "zYLM7Y9cAGgC": {
+      "title": "T2AV-Compass: Towards Unified Evaluation for Text-to-Audio-Video Generation",
+      "citations": 21,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13949479954395574661"
+    },
+    "W7OEmFMy1HYC": {
+      "title": "Frontier-eng: Benchmarking self-evolving agents on real-world engineering tasks with generative optimization",
+      "citations": 14,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1765953663516271874"
+    },
+    "_FxGoFyzp5QC": {
+      "title": "Roborouter: Training-free policy routing for robotic manipulation",
+      "citations": 11,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8308896708102648776"
+    },
+    "YsMSGLbcyi4C": {
+      "title": "OmniHalluc-L: Counterfactual Benchmarking and Modality-Perturbation Reliability Calibration for Long-Form Omni Hallucination",
+      "citations": 3,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2950978931883678230"
+    },
+    "roLk4NBRz8UC": {
+      "title": "AVSCap: Orchestrating Audio-Visual Synergy for Omni-modal Video Captioning",
+      "citations": 2,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17713668957479554074"
+    },
+    "Se3iqnhoufwC": {
+      "title": "Stabilizing language models under continual learning via condition-anchored distillation",
+      "citations": 0,
+      "cited_by_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=p-Rt0KUAAAAJ&pagesize=100&citation_for_view=p-Rt0KUAAAAJ:Se3iqnhoufwC"
+    }
+  }
+}

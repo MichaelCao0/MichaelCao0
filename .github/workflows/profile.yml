@@ -10,6 +10,9 @@ on:
     paths:
       - README.md
       - .github/scripts/update_activity.py
+      - .github/scripts/update_research.py
+      - research/**
+      - tests/**
       - .github/workflows/profile.yml
 
 permissions:
@@ -25,6 +28,12 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v6
+
+      - name: Check Scholar parsing and cache fallback
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Refresh publications and Scholar citations
+        run: python3 .github/scripts/update_research.py
 
       - name: Refresh recent public PRs and issues
         env:
@@ -80,7 +89,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md profile/*.svg
+          git add README.md research/scholar.json profile/*.svg
           if ! git diff --cached --quiet; then
             git commit -m "chore: refresh profile activity and graphics"
             git pull --rebase

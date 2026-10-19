@@ -1,0 +1,78 @@
+{
+  "scholar_user": "p-Rt0KUAAAAJ",
+  "scholar_name": "Zhe Cao",
+  "publications": [
+    {
+      "id": "zYLM7Y9cAGgC",
+      "title": "T2AV-Compass: Towards Unified Evaluation for Text-to-Audio-Video Generation",
+      "group": "Conference papers",
+      "venue": "ICML 2026 · CVPR 2026 VGBE Workshop Oral",
+      "venue_sources": ["https://proceedings.mlr.press/v306/cao26v.html", "https://w-jessamine.github.io/"],
+      "links": {"Paper": "https://proceedings.mlr.press/v306/cao26v.html", "Code": "https://github.com/NJU-LINK/T2AV-Compass", "Project": "https://nju-link.github.io/T2AV-Compass/"}
+    },
+    {
+      "id": "2osOgNQ5qMEC",
+      "title": "OmniVideoBench: Towards Audio-Visual Understanding Evaluation for Omni MLLMs",
+      "group": "Conference papers",
+      "venue": "ICLR 2026",
+      "venue_sources": ["https://is.nju.edu.cn/is_en/ab/b1/c57783a830385/page.htm"],
+      "links": {"Paper": "https://arxiv.org/abs/2510.10689", "Code": "https://github.com/NJU-LINK/OmniVideoBench", "Project": "https://omnivideobench.github.io/omnivideobench_home/"}
+    },
+    {
+      "id": "u5HHmVD_uO8C",
+      "title": "SafeDialBench: A Fine-Grained Safety Evaluation Benchmark for Large Language Models in Multi-Turn Dialogues with Diverse Jailbreak Attacks",
+      "group": "Conference papers",
+      "venue": "ICLR 2026",
+      "venue_sources": ["https://arxiv.org/pdf/2502.11090"],
+      "links": {"Paper": "https://arxiv.org/abs/2502.11090", "Code": "https://github.com/drivetosouth/SafeDialBench-Dataset", "Project": "https://safedialbench.github.io/"}
+    },
+    {
+      "id": "W7OEmFMy1HYC",
+      "title": "Frontier-Eng: Benchmarking Self-Evolving Agents on Real-World Engineering Tasks with Generative Optimization",
+      "group": "Conference papers",
+      "venue": "NeurIPS 2026",
+      "venue_sources": ["https://neurips.cc/Downloads/2026", "https://scholar.google.com/citations?user=p-Rt0KUAAAAJ"],
+      "links": {"Paper": "https://arxiv.org/abs/2604.12290", "Code": "https://github.com/Einsia/Frontier-Engineering", "Project": "https://lab.einsia.ai/frontier-eng/"}
+    },
+    {
+      "id": "YsMSGLbcyi4C",
+      "title": "OmniHalluc-L: Counterfactual Benchmarking and Modality-Perturbation Reliability Calibration for Long-Form Omni Hallucination",
+      "group": "Conference papers",
+      "venue": "EMNLP 2026",
+      "venue_sources": ["https://scholar.google.com/citations?user=p-Rt0KUAAAAJ"],
+      "links": {"Paper": "https://arxiv.org/abs/2606.03614", "Code (MPRC)": "https://github.com/ZexDong/omnihallucL-mprc"}
+    },
+    {
+      "id": "roLk4NBRz8UC",
+      "title": "AVSCap: Orchestrating Audio-Visual Synergy for Omni-modal Video Captioning",
+      "group": "Conference papers",
+      "venue": "EMNLP 2026 Main",
+      "venue_sources": ["https://wang-jiahao.github.io/", "https://longo11070001.github.io/"],
+      "links": {"Paper": "https://arxiv.org/abs/2607.12820", "Code": "https://github.com/NJU-LINK/AVSCap", "Project": "https://nju-link.github.io/AVSCap/"}
+    },
+    {
+      "id": "Y0pCki6q_DkC",
+      "title": "The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook",
+      "group": "Preprints",
+      "venue": "arXiv 2026",
+      "venue_sources": ["https://arxiv.org/abs/2604.02029"],
+      "links": {"Paper": "https://arxiv.org/abs/2604.02029", "Collection": "https://github.com/xlyu0106/Awesome-Latent-Space"}
+    },
+    {
+      "id": "_FxGoFyzp5QC",
+      "title": "RoboRouter: Training-Free Policy Routing for Robotic Manipulation",
+      "group": "Preprints",
+      "venue": "arXiv 2026",
+      "venue_sources": ["https://arxiv.org/abs/2603.07892"],
+      "links": {"Paper": "https://arxiv.org/abs/2603.07892"}
+    },
+    {
+      "id": "Se3iqnhoufwC",
+      "title": "Stabilizing Language Models under Continual Learning via Condition-Anchored Distillation",
+      "group": "Preprints",
+      "venue": "arXiv 2026",
+      "venue_sources": ["https://arxiv.org/abs/2610.06940"],
+      "links": {"Paper": "https://arxiv.org/abs/2610.06940"}
+    }
+  ]
+}
