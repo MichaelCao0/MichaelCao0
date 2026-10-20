@@ -38,7 +38,7 @@ Hi, I'm **MichaelCaoo** from **Nanjing University**.
 <!-- RESEARCH:START -->
 [![Google Scholar citations](https://img.shields.io/badge/Citations-203-4285f4?style=flat-square)](https://scholar.google.com/citations?user=p-Rt0KUAAAAJ&hl=en) [![h-index](https://img.shields.io/badge/h--index-6-4285f4?style=flat-square)](https://scholar.google.com/citations?user=p-Rt0KUAAAAJ&hl=en) [![i10-index](https://img.shields.io/badge/i10--index-6-4285f4?style=flat-square)](https://scholar.google.com/citations?user=p-Rt0KUAAAAJ&hl=en)
 
-<sub>Google Scholar · Updated 2026-10-19 UTC · Refreshed daily</sub>
+<sub>Google Scholar · Updated 2026-10-20 UTC · Refreshed daily</sub>
 
 #### Conference papers
 
