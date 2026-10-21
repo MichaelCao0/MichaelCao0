@@ -111,7 +111,7 @@ My latest public pull requests and issues, ordered by last update.
 
 | Status | Repository · Title | Updated |
 | :--- | :--- | :--- |
-| 🟢 Open | **NoizAI/HelixWorld** · [Wechat QR Code expired #17](https://github.com/NoizAI/HelixWorld/issues/17) | 2026-10-19 |
+| ⚪ Closed | **NoizAI/HelixWorld** · [Wechat QR Code expired #17](https://github.com/NoizAI/HelixWorld/issues/17) | 2026-10-20 |
 | 🟢 Open | **zhengchen1999/Grounding-IQA** · [权重和推理代码开源 #5](https://github.com/zhengchen1999/Grounding-IQA/issues/5) | 2026-10-14 |
 | 🟢 Open | **vivoCameraResearch/StereoBind** · [Inquiry regarding the estimated release timeline #1](https://github.com/vivoCameraResearch/StereoBind/issues/1) | 2026-10-14 |
 | ⚪ Closed | **libra-tools/libra** · [Track operation history data model, CLI integration, and validation #408](https://github.com/libra-tools/libra/issues/408) | 2026-09-23 |
