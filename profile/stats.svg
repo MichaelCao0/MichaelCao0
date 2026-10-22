@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">MichaelCaoo&#39;s GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 1, Total Commits  (last year) : 104, Total PRs: 26, Total PRs Merged: 14, Total PRs Reviewed: 0, Total Issues: 14, Contributed to (last year): 20</desc>
+        <desc id="descId">Total Stars Earned: 1, Total Commits  (last year) : 104, Total PRs: 26, Total PRs Merged: 14, Total PRs Reviewed: 0, Total Issues: 14, Contributed to (last year): 19</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -259,7 +259,7 @@
         x="224.01"
         y="12.5"
         data-testid="contribs"
-      >20</text>
+      >19</text>
     </g>
   </g>
     </svg>
