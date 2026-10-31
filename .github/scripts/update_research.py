@@ -132,17 +132,15 @@ def render(catalog, snapshot):
         f"[![h-index]({badge('h-index', snapshot['h_index'])})]({profile}) "
         f"[![i10-index]({badge('i10-index', snapshot['i10_index'])})]({profile})",
         "", f"<sub>Google Scholar · Updated {snapshot['updated_utc']} UTC · Refreshed daily</sub>",
+        "", "| Paper | Venue | Links | Cited |", "| :--- | :--- | :--- | ---: |",
     ]
-    group = None
     for paper in catalog["publications"]:
-        if paper["group"] != group:
-            group = paper["group"]
-            lines += ["", f"#### {group}"]
         count = snapshot["papers"][paper["id"]]
-        links = [f"[{label}]({url})" for label, url in paper["links"].items()]
-        citation_badge = badge("Cited by", count["citations"], "2ea44f")
-        links.append(f"[![Cited by {count['citations']}]({citation_badge})]({count['cited_by_url']})")
-        lines += ["", f"**{paper['title']}**<br>", f"**{paper['venue']}**<br>", " · ".join(links)]
+        links = " · ".join(f"[{label}]({url})" for label, url in paper["links"].items())
+        citation = f"[![{count['citations']}]({badge('Cited by', count['citations'], '2ea44f')})]({count['cited_by_url']})"
+        title = paper["title"].replace("|", "\\|")
+        venue = paper["venue"].replace("|", "\\|")
+        lines.append(f"| **{title}** | {venue} | {links} | {citation} |")
     return "\n".join(lines)
 
 
