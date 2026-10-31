@@ -101,9 +101,9 @@ My latest public pull requests and issues, ordered by last update.
 
 | Status | Repository · Title | Updated |
 | :--- | :--- | :--- |
+| 🟢 Open | **RL-Align/RL-Kernel** · [fix\(grpo\): stabilize group variance for offset rewards #455](https://github.com/RL-Align/RL-Kernel/pull/455) | 2026-10-30 |
+| 🟢 Open | **RL-Align/RL-Kernel** · [fix\(sampling\): preserve per-row parameters in active chunks #464](https://github.com/RL-Align/RL-Kernel/pull/464) | 2026-10-30 |
 | 🟣 Merged | **RL-Align/RL-Kernel** · [fix\(ratio\_kl\): isolate inactive logits before normalization #465](https://github.com/RL-Align/RL-Kernel/pull/465) | 2026-10-17 |
-| 🟢 Open | **RL-Align/RL-Kernel** · [fix\(grpo\): stabilize group variance for offset rewards #455](https://github.com/RL-Align/RL-Kernel/pull/455) | 2026-10-10 |
-| 🟢 Open | **RL-Align/RL-Kernel** · [fix\(sampling\): preserve per-row parameters in active chunks #464](https://github.com/RL-Align/RL-Kernel/pull/464) | 2026-10-10 |
 | 🟣 Merged | **RL-Align/RL-Kernel** · [fix\(logp\): write indexed results into noncontiguous output views #454](https://github.com/RL-Align/RL-Kernel/pull/454) | 2026-10-02 |
 | ⚪ Closed | **vllm-project/vllm-omni** · [\[Core\] Allocate AR-Diffusion KV blocks for reachable session demand #8167](https://github.com/vllm-project/vllm-omni/pull/8167) | 2026-09-26 |
 
