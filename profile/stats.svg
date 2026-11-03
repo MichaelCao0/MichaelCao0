@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">MichaelCaoo&#39;s GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 5, Total Commits  (last year) : 118, Total PRs: 26, Total PRs Merged: 14, Total PRs Reviewed: 0, Total Issues: 14, Contributed to (last year): 19</desc>
+        <desc id="descId">Total Stars Earned: 6, Total Commits  (last year) : 118, Total PRs: 26, Total PRs Merged: 14, Total PRs Reviewed: 0, Total Issues: 14, Contributed to (last year): 19</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 192.5490045251458;
+        stroke-dashoffset: 190.94827263616932;
       }
     }
   
@@ -169,7 +169,7 @@
         x="224.01"
         y="12.5"
         data-testid="stars"
-      >5</text>
+      >6</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
