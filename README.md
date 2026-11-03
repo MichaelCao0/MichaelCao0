@@ -62,4 +62,3 @@ Selected merged contributions:
 | **[vLLM-Omni](https://github.com/vllm-project/vllm-omni)** | Preserved static KV staging inputs for CUDA Graph capture in AR-Diffusion. [#7921](https://github.com/vllm-project/vllm-omni/pull/7921) |
 | **[RL-Kernel](https://github.com/RL-Align/RL-Kernel)** | Fixed indexed writes into noncontiguous output views and isolated inactive logits before normalization. [#454](https://github.com/RL-Align/RL-Kernel/pull/454) · [#465](https://github.com/RL-Align/RL-Kernel/pull/465) |
 | **[Libra](https://github.com/libra-tools/libra)** | Contributed an operation history layer with CLI integration and validation coverage. [#407](https://github.com/libra-tools/libra/pull/407) |
-| **[T2AV-Compass](https://github.com/NJU-LINK/T2AV-Compass)** | Added a reproducible objective evaluation workflow and streamlined evaluation environments. [#6](https://github.com/NJU-LINK/T2AV-Compass/pull/6) · [#12](https://github.com/NJU-LINK/T2AV-Compass/pull/12) |
