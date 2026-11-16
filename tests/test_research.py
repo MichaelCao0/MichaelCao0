@@ -20,10 +20,10 @@ class ScholarTests(unittest.TestCase):
 
     def test_real_profile_counts_and_zero_citation_paper(self):
         snapshot = research.parse_scholar(self.html, self.catalog)
-        self.assertEqual((snapshot["citations"], snapshot["h_index"], snapshot["i10_index"]), (203, 6, 6))
-        self.assertEqual(len(snapshot["papers"]), 9)
-        self.assertEqual(snapshot["papers"]["2osOgNQ5qMEC"]["citations"], 64)
-        self.assertEqual(snapshot["papers"]["Se3iqnhoufwC"]["citations"], 0)
+        self.assertEqual((snapshot["citations"], snapshot["h_index"], snapshot["i10_index"]), (236, 6, 6))
+        self.assertEqual(len(snapshot["papers"]), 10)
+        self.assertEqual(snapshot["papers"]["2osOgNQ5qMEC"]["citations"], 74)
+        self.assertEqual(snapshot["papers"]["hqOjcs7Dif8C"]["citations"], 0)
         self.assertIn("cites=14608674073757441090", snapshot["papers"]["2osOgNQ5qMEC"]["cited_by_url"])
 
     def test_blocked_and_wrong_identity_are_rejected(self):
@@ -32,12 +32,12 @@ class ScholarTests(unittest.TestCase):
                 research.parse_scholar(source, self.catalog)
 
     def test_partial_profile_is_rejected(self):
-        source = self.html.replace("Se3iqnhoufwC", "missing-paper")
+        source = self.html.replace("hqOjcs7Dif8C", "missing-paper")
         with self.assertRaisesRegex(ValueError, "partial list"):
             research.parse_scholar(source, self.catalog)
 
     def test_invalid_count_is_not_silently_zeroed(self):
-        source = self.html.replace(">64</a>", ">unavailable</a>")
+        source = self.html.replace(">74</a>", ">unavailable</a>")
         self.assertNotEqual(source, self.html)
         with self.assertRaises(ValueError):
             research.parse_scholar(source, self.catalog)
