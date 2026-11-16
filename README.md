@@ -3,6 +3,9 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2F81F7&center=true&vCenter=true&width=650&lines=Hello%2C+I'm+MichaelCaoo;Welcome+to+my+GitHub+profile;I+build+useful+things+with+code)](https://git.io/typing-svg)
 
 <p>
+  <a href="https://michaelcao0.github.io/">
+    <img src="https://img.shields.io/badge/Personal%20Homepage-michaelcao0.github.io-2F81F7?style=flat" alt="Personal homepage" />
+  </a>
   <a href="https://github.com/MichaelCao0?tab=followers">
     <img src="https://img.shields.io/github/followers/MichaelCao0?label=Followers&style=flat&color=2F81F7" alt="GitHub followers" />
   </a>
@@ -21,6 +24,7 @@
 <p align="center"><sub>Refreshed daily with GitHub Actions · Built with <a href="https://github.com/Platane/snk">snk</a> and <a href="https://github.com/stats-organization/github-readme-stats-action">GitHub Readme Stats Action</a></sub></p>
 
 Hi, I'm **MichaelCaoo** from **Nanjing University**.
+- My personal homepage is [michaelcao0.github.io](https://michaelcao0.github.io/).
 - My publications are available on [Google Scholar](https://scholar.google.com/citations?user=p-Rt0KUAAAAJ&hl=zh-CN).
 - More of my work is available on [GitHub](https://github.com/MichaelCao0).
 
