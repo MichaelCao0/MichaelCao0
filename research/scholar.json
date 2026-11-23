@@ -1,14 +1,14 @@
 {
   "source": "Google Scholar",
   "scholar_user": "p-Rt0KUAAAAJ",
-  "updated_utc": "2026-11-16",
-  "citations": 236,
+  "updated_utc": "2026-11-23",
+  "citations": 245,
   "h_index": 6,
   "i10_index": 6,
   "papers": {
     "2osOgNQ5qMEC": {
       "title": "Omnivideobench: Towards audio-visual understanding evaluation for omni mllms, 2025a",
-      "citations": 74,
+      "citations": 78,
       "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14608674073757441090,17812424618293257815,2738140945755848585"
     },
     "u5HHmVD_uO8C": {
@@ -23,12 +23,12 @@
     },
     "zYLM7Y9cAGgC": {
       "title": "T2AV-Compass: Towards Unified Evaluation for Text-to-Audio-Video Generation",
-      "citations": 26,
+      "citations": 28,
       "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13949479954395574661"
     },
     "W7OEmFMy1HYC": {
       "title": "Frontier-eng: Benchmarking self-evolving agents on real-world engineering tasks with generative optimization",
-      "citations": 18,
+      "citations": 19,
       "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1765953663516271874"
     },
     "_FxGoFyzp5QC": {
@@ -38,12 +38,12 @@
     },
     "roLk4NBRz8UC": {
       "title": "AVSCap: Orchestrating Audio-Visual Synergy for Omni-modal Video Captioning",
-      "citations": 4,
+      "citations": 5,
       "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17713668957479554074"
     },
     "YsMSGLbcyi4C": {
       "title": "OmniHalluc-L: Counterfactual Benchmarking and Modality-Perturbation Reliability Calibration for Long-Form Omni Hallucination",
-      "citations": 4,
+      "citations": 5,
       "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2950978931883678230"
     },
     "UebtZRa9Y70C": {
@@ -54,7 +54,7 @@
     "hqOjcs7Dif8C": {
       "title": "From Prediction to Control: A Survey of Closed-Loop World Models for Robot Learning",
       "citations": 0,
-      "cited_by_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=p-Rt0KUAAAAJ&citation_for_view=p-Rt0KUAAAAJ:hqOjcs7Dif8C"
+      "cited_by_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=p-Rt0KUAAAAJ&pagesize=100&citation_for_view=p-Rt0KUAAAAJ:hqOjcs7Dif8C"
     }
   }
 }
