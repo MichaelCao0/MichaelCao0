@@ -10,7 +10,7 @@ from html.parser import HTMLParser
 import json
 from pathlib import Path
 import re
-from urllib.parse import parse_qs, urlencode, urljoin, urlparse
+from urllib.parse import parse_qs, quote, urlencode, urljoin, urlparse
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -116,31 +116,93 @@ def parse_scholar(source, catalog):
     }
 
 
-def badge(label, value, color="4285f4"):
-    # Shields static badge path: dashes/underscores are escaped before URL encoding.
-    from urllib.parse import quote
-    label = quote(label.replace("_", "__").replace("-", "--"), safe="")
-    return f"https://img.shields.io/badge/{label}-{value}-{color}?style=flat-square"
+def shield_escape(text):
+    return quote(str(text).replace("_", "__").replace("-", "--"), safe="")
+
+
+def badge(label, value, color="1d5c47"):
+    return f"https://img.shields.io/badge/{shield_escape(label)}-{shield_escape(value)}-{color}?style=flat-square"
+
+
+def single_pill(text, color="525856"):
+    return f"https://img.shields.io/badge/{shield_escape(text)}-{color}?style=flat-square"
+
+
+def venue_color(label):
+    lower = label.lower()
+    if "oral" in lower or "spotlight" in lower:
+        return "b86b1d"
+    if "neurips" in lower:
+        return "573099"
+    if "icml" in lower:
+        return "135e6d"
+    if "iclr" in lower:
+        return "19643b"
+    if "cvpr" in lower:
+        return "1e5397"
+    if "emnlp" in lower or "acl" in lower:
+        return "992939"
+    return "525856"
+
+
+def format_paper_cell(paper):
+    raw_title = paper["title"].replace("|", "\\|")
+    if ":" in raw_title:
+        short, rest = raw_title.split(":", 1)
+        title_md = f"**{short.strip()}**: {rest.strip()}"
+    else:
+        title_md = f"**{raw_title}**"
+
+    meta_parts = []
+    if paper.get("featured"):
+        meta_parts.append("★ Representative")
+    if paper.get("role"):
+        meta_parts.append(paper["role"])
+    if paper.get("topic"):
+        meta_parts.append(paper["topic"])
+    for label, url in paper["links"].items():
+        meta_parts.append(f'<a href="{url}">{label}</a>')
+
+    return f"{title_md}<br/><sub>{' · '.join(meta_parts)}</sub>"
+
+
+def format_venue_cell(venue):
+    parts = [part.strip() for part in venue.split("·") if part.strip()]
+    return "<br/>".join(f"![{part}]({single_pill(part, venue_color(part))})" for part in parts)
+
+
+def render_group_table(papers, snapshot):
+    rows = ["| Publication | Venue | Cited |", "| :--- | :--- | ---: |"]
+    for paper in papers:
+        count = snapshot["papers"][paper["id"]]
+        cite_num = count["citations"]
+        cite_color = "1d5c47" if cite_num > 0 else "6e7781"
+        citation = f"[![{cite_num}]({badge('Cited by', cite_num, cite_color)})]({count['cited_by_url']})"
+        rows.append(f"| {format_paper_cell(paper)} | {format_venue_cell(paper['venue'])} | {citation} |")
+    return rows
 
 
 def render(catalog, snapshot):
     if snapshot["scholar_user"] != catalog["scholar_user"]:
         raise ValueError("Cached Scholar profile does not match catalog")
     profile = "https://scholar.google.com/citations?" + urlencode({"user": catalog["scholar_user"], "hl": "en"})
+    accepted = [p for p in catalog["publications"] if p.get("group") == "Conference papers"]
+    preprints = [p for p in catalog["publications"] if p.get("group") != "Conference papers"]
+
     lines = [
-        f"[![Google Scholar citations]({badge('Citations', snapshot['citations'])})]({profile}) "
-        f"[![h-index]({badge('h-index', snapshot['h_index'])})]({profile}) "
-        f"[![i10-index]({badge('i10-index', snapshot['i10_index'])})]({profile})",
-        "", f"<sub>Google Scholar · Updated {snapshot['updated_utc']} UTC · Refreshed daily</sub>",
-        "", "| Paper | Venue | Links | Cited |", "| :--- | :--- | :--- | ---: |",
+        f"[![Google Scholar citations]({badge('Citations', snapshot['citations'], '1d5c47')})]({profile}) "
+        f"[![h-index]({badge('h-index', snapshot['h_index'], '295c99')})]({profile}) "
+        f"[![i10-index]({badge('i10-index', snapshot['i10_index'], '573099')})]({profile}) "
+        f"<sub>· Google Scholar · Updated {snapshot['updated_utc']} UTC · Refreshed daily</sub>",
+        "",
+        f"#### Accepted Conference Papers ({len(accepted)})",
+        "",
+        *render_group_table(accepted, snapshot),
+        "",
+        f"#### Preprints & Surveys ({len(preprints)})",
+        "",
+        *render_group_table(preprints, snapshot),
     ]
-    for paper in catalog["publications"]:
-        count = snapshot["papers"][paper["id"]]
-        links = " · ".join(f"[{label}]({url})" for label, url in paper["links"].items())
-        citation = f"[![{count['citations']}]({badge('Cited by', count['citations'], '2ea44f')})]({count['cited_by_url']})"
-        title = paper["title"].replace("|", "\\|")
-        venue = paper["venue"].replace("|", "\\|")
-        lines.append(f"| **{title}** | {venue} | {links} | {citation} |")
     return "\n".join(lines)
 
 

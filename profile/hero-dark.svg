@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="264" viewBox="0 0 920 264" fill="none" role="img" aria-labelledby="heroTitleDark heroDescDark">
+  <title id="heroTitleDark">Zhe Cao — Building models that perceive, reason, and act.</title>
+  <desc id="heroDescDark">Undergraduate researcher at Nanjing University working on Multimodal LLMs, Agentic AI, World Models, and reliable ML systems.</desc>
+  <defs>
+    <linearGradient id="bgGradD" x1="0" y1="0" x2="920" y2="264" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0E1311" />
+      <stop offset="100%" stop-color="#141C18" />
+    </linearGradient>
+    <radialGradient id="glowJadeD" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(120 24) rotate(22) scale(380 190)">
+      <stop offset="0%" stop-color="#6DC5A3" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#6DC5A3" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowBlueD" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(820 48) rotate(145) scale(340 185)">
+      <stop offset="0%" stop-color="#7AB0F5" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#7AB0F5" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="accentRuleD" x1="0" y1="0" x2="920" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6DC5A3" />
+      <stop offset="55%" stop-color="#7AB0F5" />
+      <stop offset="100%" stop-color="#F0AD58" />
+    </linearGradient>
+    <pattern id="dotGridD" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.85" fill="#6DC5A3" fill-opacity="0.09" />
+    </pattern>
+  </defs>
+
+  <style>
+    .eyebrow { font: 700 10.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; letter-spacing: 0.14em; fill: #6DC5A3; }
+    .name { font: 600 32px "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; fill: #F2F6F4; }
+    .headline { font: italic 500 22px "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; fill: #8BD4B8; }
+    .lead { font: 400 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #D2DDD7; }
+    .pill-text { font: 600 11.5px "SF Mono", ui-monospace, Menlo, Consolas, monospace; fill: #8BD4B8; }
+    .metric-val { font: 700 21px "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; fill: #F2F6F4; }
+    .metric-lbl { font: 700 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; letter-spacing: 0.1em; fill: #6DC5A3; }
+    .metric-sub { font: 500 11px "SF Mono", ui-monospace, Menlo, Consolas, monospace; fill: #90A198; }
+    @keyframes pulsePixelD {
+      0%, 100% { opacity: 0.35; }
+      50% { opacity: 1; }
+    }
+    .px1 { animation: pulsePixelD 2.4s ease-in-out infinite; }
+    .px2 { animation: pulsePixelD 2.4s ease-in-out 0.4s infinite; }
+    .px3 { animation: pulsePixelD 2.4s ease-in-out 0.8s infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .px1, .px2, .px3 { animation: none; opacity: 0.85; }
+    }
+  </style>
+
+  <!-- Card Surface -->
+  <rect x="0.75" y="0.75" width="918.5" height="262.5" rx="14" fill="url(#bgGradD)" stroke="#27352F" stroke-width="1.5" />
+  <rect x="1" y="1" width="918" height="262" rx="14" fill="url(#glowJadeD)" />
+  <rect x="1" y="1" width="918" height="262" rx="14" fill="url(#glowBlueD)" />
+  <rect x="1" y="1" width="918" height="262" rx="14" fill="url(#dotGridD)" />
+  <path d="M14 1.5H906" stroke="url(#accentRuleD)" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Top Row: Monogram + Eyebrow + Status Pill -->
+  <g transform="translate(34, 28)">
+    <rect width="34" height="34" rx="8" fill="#1E3F33" stroke="#6DC5A3" stroke-opacity="0.4" />
+    <text x="17" y="22.5" text-anchor="middle" fill="#F2F6F4" font-family="Georgia, 'Palatino Linotype', serif" font-size="14.5" font-weight="600">ZC</text>
+    <text x="46" y="15" class="eyebrow">ACADEMIC PORTFOLIO · NANJING UNIVERSITY</text>
+    <text x="46" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#90A198">B.S. in Computer Science &amp; Technology (2023 – 2027)</text>
+  </g>
+
+  <!-- Right Agentic Pixel Status Chip -->
+  <g transform="translate(658, 30)">
+    <rect width="228" height="30" rx="15" fill="#161F1B" stroke="#2D4038" />
+    <g transform="translate(13, 9)">
+      <rect x="0" y="0" width="3.2" height="3.2" rx="0.8" fill="#6DC5A3" class="px1" />
+      <rect x="4.5" y="0" width="3.2" height="3.2" rx="0.8" fill="#6DC5A3" class="px2" />
+      <rect x="9" y="0" width="3.2" height="3.2" rx="0.8" fill="#6DC5A3" class="px3" />
+      <rect x="0" y="4.5" width="3.2" height="3.2" rx="0.8" fill="#6DC5A3" class="px2" />
+      <rect x="4.5" y="4.5" width="3.2" height="3.2" rx="0.8" fill="#7AB0F5" class="px3" />
+      <rect x="9" y="4.5" width="3.2" height="3.2" rx="0.8" fill="#6DC5A3" class="px1" />
+      <rect x="0" y="9" width="3.2" height="3.2" rx="0.8" fill="#6DC5A3" class="px3" />
+      <rect x="4.5" y="9" width="3.2" height="3.2" rx="0.8" fill="#6DC5A3" class="px1" />
+      <rect x="9" y="9" width="3.2" height="3.2" rx="0.8" fill="#6DC5A3" class="px2" />
+    </g>
+    <text x="34" y="19" class="pill-text">MLLMs · Agents · World Models</text>
+  </g>
+
+  <!-- Main Headline & Tagline -->
+  <text x="34" y="106" class="name">Zhe Cao</text>
+  <text x="166" y="105" class="headline">— Building models that perceive, reason, and act.</text>
+  <text x="34" y="136" class="lead">Researching omni-modal understanding &amp; generation, self-evolving agents, closed-loop robot world models, and reliable ML systems.</text>
+
+  <!-- Bottom 3 Metric Cards -->
+  <g transform="translate(34, 162)">
+    <rect width="274" height="74" rx="9" fill="#161F1B" stroke="#27352F" />
+    <path d="M10 1H264" stroke="#6DC5A3" stroke-width="2" />
+    <text x="16" y="31" class="metric-val">10</text>
+    <text x="50" y="29" class="metric-lbl">SELECTED WORKS</text>
+    <text x="16" y="54" class="metric-sub">6 peer-reviewed · 4 preprints</text>
+  </g>
+
+  <g transform="translate(323, 162)">
+    <rect width="274" height="74" rx="9" fill="#161F1B" stroke="#27352F" />
+    <path d="M10 1H264" stroke="#7AB0F5" stroke-width="2" />
+    <text x="16" y="31" class="metric-val">5</text>
+    <text x="39" y="29" class="metric-lbl" style="fill:#9EC7FB">TOP-TIER VENUES</text>
+    <text x="16" y="54" class="metric-sub">ICML · NeurIPS · ICLR · EMNLP · CVPR</text>
+  </g>
+
+  <g transform="translate(612, 162)">
+    <rect width="274" height="74" rx="9" fill="#161F1B" stroke="#27352F" />
+    <path d="M10 1H264" stroke="#F0AD58" stroke-width="2" />
+    <text x="16" y="31" class="metric-val">Oral</text>
+    <text x="72" y="29" class="metric-lbl" style="fill:#F8C66D">SPOTLIGHT HIGHLIGHT</text>
+    <text x="16" y="54" class="metric-sub">T2AV-Compass · CVPR 2026 VGBE</text>
+  </g>
+</svg>

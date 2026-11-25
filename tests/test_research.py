@@ -49,6 +49,15 @@ class ScholarTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             research.update_readme(text + research.START, "new")
 
+    def test_render_groups_and_venue_badges(self):
+        snapshot = research.parse_scholar(self.html, self.catalog)
+        rendered = research.render(self.catalog, snapshot)
+        self.assertIn("#### Accepted Conference Papers (6)", rendered)
+        self.assertIn("#### Preprints & Surveys (4)", rendered)
+        self.assertIn("b86b1d", rendered)  # Oral highlight badge
+        self.assertIn("573099", rendered)  # NeurIPS badge
+        self.assertIn("992939", rendered)  # EMNLP badge
+
     def test_http_failure_preserves_successful_snapshot_and_date(self):
         snapshot = research.parse_scholar(self.html, self.catalog)
         snapshot["updated_utc"] = "2026-10-18"
